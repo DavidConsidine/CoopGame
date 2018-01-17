@@ -27,3 +27,5 @@ Udemy UE4 mastery course by Tom Looman.
 ## CG:12 Import Weapon Mesh ##
 
 ## CG:13 Line Tracing Part 1 ##
+
+## CG:14 Line Tracing Part 2 ##
