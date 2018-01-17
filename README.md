@@ -7,3 +7,5 @@ Udemy UE4 mastery course by Tom Looman.
 ## CG:02 Create The Player Class ##
 
 ## CG:03 Add Movement Input ##
+
+## CG:04 Add Mouse Look ##
