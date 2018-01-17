@@ -11,3 +11,5 @@ Udemy UE4 mastery course by Tom Looman.
 ## CG:04 Add Mouse Look ##
 
 ## CG:05 Third Person Camera Part 1 ##
+
+## CG:06 Third Person Camera Part 2 ##
