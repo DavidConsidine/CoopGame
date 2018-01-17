@@ -21,3 +21,5 @@ Udemy UE4 mastery course by Tom Looman.
 ## CG:09 Add Character Animations ##
 
 ## CG:10 Challenge Setup Player Jump ##
+
+## CG:11 Create Weapon Class ##
