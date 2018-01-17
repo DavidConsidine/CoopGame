@@ -23,3 +23,5 @@ Udemy UE4 mastery course by Tom Looman.
 ## CG:10 Challenge Setup Player Jump ##
 
 ## CG:11 Create Weapon Class ##
+
+## CG:12 Import Weapon Mesh ##
