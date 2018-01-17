@@ -19,3 +19,5 @@ Udemy UE4 mastery course by Tom Looman.
 ## CG:08 Add Crouch ##
 
 ## CG:09 Add Character Animations ##
+
+## CG:10 Challenge Setup Player Jump ##
