@@ -33,3 +33,5 @@ Udemy UE4 mastery course by Tom Looman.
 ## CG:15 Apply Damage to Actors ##
 
 ## CG:16 Create a Target Dummy ##
+
+## CG:17 Add Muzzle and Impact Effects ##
