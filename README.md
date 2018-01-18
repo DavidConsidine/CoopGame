@@ -45,3 +45,5 @@ Udemy UE4 mastery course by Tom Looman.
 ## CG:21 Add Aiming Sown Sights ##
 
 ## CG:22 Create Debug Console Variables ##
+
+## CG:23 Polish Weapon Code ##
