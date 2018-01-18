@@ -51,3 +51,5 @@ Udemy UE4 mastery course by Tom Looman.
 ## CG:24 Shake Camera While Firing ##
 
 ## CG:25 Setup Custom Surface Types ##
+
+## CG:26 Add Multiple Hit Effect Types ##
