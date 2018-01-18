@@ -41,3 +41,5 @@ Udemy UE4 mastery course by Tom Looman.
 ## CG:19 Add Simple Crosshair ##
 
 ## CG:20 Challenge: Create your own Grenade Launcher ##
+
+## CG:21 Add Aiming Sown Sights ##
