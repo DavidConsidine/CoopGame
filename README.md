@@ -47,3 +47,5 @@ Udemy UE4 mastery course by Tom Looman.
 ## CG:22 Create Debug Console Variables ##
 
 ## CG:23 Polish Weapon Code ##
+
+## CG:24 Shake Camera While Firing ##
