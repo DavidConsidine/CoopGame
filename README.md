@@ -43,3 +43,5 @@ Udemy UE4 mastery course by Tom Looman.
 ## CG:20 Challenge: Create your own Grenade Launcher ##
 
 ## CG:21 Add Aiming Sown Sights ##
+
+## CG:22 Create Debug Console Variables ##
