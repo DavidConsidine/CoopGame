@@ -39,3 +39,5 @@ Udemy UE4 mastery course by Tom Looman.
 ## CG:18 Create Smoke Beam Effect ##
 
 ## CG:19 Add Simple Crosshair ##
+
+## CG:20 Challenge: Create your own Grenade Launcher ##
