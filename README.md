@@ -55,3 +55,5 @@ Udemy UE4 mastery course by Tom Looman.
 ## CG:26 Add Multiple Hit Effect Types ##
 
 ## CG:27 Add Custom Collision Channel ##
+
+## CG:28 Apply Headshot Bonus Damage ##
