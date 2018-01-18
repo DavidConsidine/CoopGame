@@ -35,3 +35,5 @@ Udemy UE4 mastery course by Tom Looman.
 ## CG:16 Create a Target Dummy ##
 
 ## CG:17 Add Muzzle and Impact Effects ##
+
+## CG:18 Create Smoke Beam Effect ##
