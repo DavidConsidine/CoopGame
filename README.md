@@ -61,3 +61,5 @@ Udemy UE4 mastery course by Tom Looman.
 ## CG:29 Setup Automatic Fire ##
 
 ## CG:30 Create Health Component ##
+
+## CG:31 Handle Damage Events ##
