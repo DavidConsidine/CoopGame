@@ -65,3 +65,5 @@ Udemy UE4 mastery course by Tom Looman.
 ## CG:31 Handle Damage Events ##
 
 ## CG:32 Add Custom Event ##
+
+## CG:33 Add Death Animation ##
