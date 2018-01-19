@@ -71,3 +71,5 @@ Udemy UE4 mastery course by Tom Looman.
 ## CG:34 Create 'Gears of War'-style Health Indicator Material ##
 
 ## CG:35 Create Widget in UMG ##
+
+## CG:36 Challenge: Create an Explosive Barrel ##
