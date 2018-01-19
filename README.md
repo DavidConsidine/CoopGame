@@ -77,3 +77,5 @@ Udemy UE4 mastery course by Tom Looman.
 ## CG:37 Play the Game in Multiplayer ##
 
 ## CG:38 Replicate Weapon Code Part 1 ##
+
+## CG:38 Replicate Weapon Code Part 2 ##
