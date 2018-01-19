@@ -11,6 +11,22 @@ class UDamageType;
 class UParticleSystem;
 class UCameraShake;
 
+
+// Contains information of a single hitscan weapon line trace
+USTRUCT()
+struct FHitScanTrace
+{
+	GENERATED_BODY()
+
+public:
+
+	UPROPERTY()
+	FVector_NetQuantize TraceFrom;
+
+	UPROPERTY()
+	FVector_NetQuantize TraceEnd;
+};
+
 UCLASS()
 class COOPGAME_API ASWeapon : public AActor
 {
@@ -71,6 +87,12 @@ protected:
 
 	/* Derived from RateOfFire */
 	float TimeBetweenShots;
+
+	UPROPERTY(ReplicatedUsing=OnRep_HitScanTrace)
+	FHitScanTrace HitScanTrace;
+
+	UFUNCTION()
+	void OnRep_HitScanTrace();
 
 public:
 

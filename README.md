@@ -79,3 +79,5 @@ Udemy UE4 mastery course by Tom Looman.
 ## CG:38 Replicate Weapon Code Part 1 ##
 
 ## CG:38 Replicate Weapon Code Part 2 ##
+
+## CG:38 Replicate Weapon Code Part 3 ##
