@@ -69,3 +69,5 @@ Udemy UE4 mastery course by Tom Looman.
 ## CG:33 Add Death Animation ##
 
 ## CG:34 Create 'Gears of War'-style Health Indicator Material ##
+
+## CG:35 Create Widget in UMG ##
