@@ -59,3 +59,5 @@ Udemy UE4 mastery course by Tom Looman.
 ## CG:28 Apply Headshot Bonus Damage ##
 
 ## CG:29 Setup Automatic Fire ##
+
+## CG:30 Create Health Component ##
