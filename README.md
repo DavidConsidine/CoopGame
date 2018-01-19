@@ -67,3 +67,5 @@ Udemy UE4 mastery course by Tom Looman.
 ## CG:32 Add Custom Event ##
 
 ## CG:33 Add Death Animation ##
+
+## CG:34 Create 'Gears of War'-style Health Indicator Material ##
