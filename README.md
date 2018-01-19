@@ -63,3 +63,5 @@ Udemy UE4 mastery course by Tom Looman.
 ## CG:30 Create Health Component ##
 
 ## CG:31 Handle Damage Events ##
+
+## CG:32 Add Custom Event ##
