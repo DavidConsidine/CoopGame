@@ -101,3 +101,5 @@ Udemy UE4 mastery course by Tom Looman.
 ## CG:46 Add Self-Destruct ##
 
 ## CG:47 Explode When Near Player ##
+
+## CG:48 Setup Sound Effects Part 1 ##
