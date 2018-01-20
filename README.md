@@ -95,3 +95,5 @@ Udemy UE4 mastery course by Tom Looman.
 ## CG:43 Move Pawn Using Forces ##
 
 ## CG:44 Add TakeDamage Support ##
+
+## CG:45 Pulse Material on TakeDamage ##
