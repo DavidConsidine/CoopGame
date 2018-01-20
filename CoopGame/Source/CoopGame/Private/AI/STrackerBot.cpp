@@ -1,6 +1,7 @@
 // Fill out your copyright notice in the Description page of Project Settings.
 
 #include "STrackerBot.h"
+#include "SCharacter.h"
 #include "Components/StaticMeshComponent.h"
 #include "AI/Navigation/NavigationSystem.h"
 #include "AI/Navigation/NavigationPath.h"
@@ -10,21 +11,28 @@
 #include "SHealthComponent.h"
 #include "Materials/MaterialInstanceDynamic.h"
 #include "Particles/ParticleSystem.h"
+#include "Components/SphereComponent.h"
 
 // Sets default values
 ASTrackerBot::ASTrackerBot()
 {
- 	// Set this pawn to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
+	// Set this pawn to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
 
 	MeshComp = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("MeshComp"));
 	MeshComp->SetCanEverAffectNavigation(false);
 	MeshComp->SetSimulatePhysics(true);
 	RootComponent = MeshComp;
-	
+
 	HealthComp = CreateDefaultSubobject<USHealthComponent>(TEXT("HealthComp"));
 	HealthComp->OnHealthChanged.AddDynamic(this, &ASTrackerBot::HandleTakeDamage);
 
+	SphereComp = CreateDefaultSubobject<USphereComponent>(TEXT("SphereComp"));
+	SphereComp->SetSphereRadius(200.0f);
+	SphereComp->SetCollisionEnabled(ECollisionEnabled::QueryOnly);
+	SphereComp->SetCollisionResponseToAllChannels(ECR_Ignore);
+	SphereComp->SetCollisionResponseToChannel(ECC_Pawn, ECR_Overlap);
+	SphereComp->SetupAttachment(RootComponent);
 
 	bUseVelocityChange = false;
 	MovementForce = 1000.0f;
@@ -38,8 +46,9 @@ ASTrackerBot::ASTrackerBot()
 void ASTrackerBot::BeginPlay()
 {
 	Super::BeginPlay();
-	
+
 	NextPathPoint = GetNextPathPoint();
+
 }
 
 void ASTrackerBot::HandleTakeDamage(USHealthComponent * OwningHealthComp, float Health, float HealthDelta, const UDamageType * DamageType, AController * InstigatedBy, AActor * DamageCauser)
@@ -102,6 +111,11 @@ void ASTrackerBot::SelfDestruct()
 	Destroy();
 }
 
+void ASTrackerBot::DamageSelf()
+{
+	UGameplayStatics::ApplyDamage(this, 20.0f, GetInstigatorController(), this, nullptr);
+}
+
 // Called every frame
 void ASTrackerBot::Tick(float DeltaTime)
 {
@@ -111,7 +125,7 @@ void ASTrackerBot::Tick(float DeltaTime)
 
 	if (DistanceToTarget <= RequiredDistanceToTarget)
 	{
-		NextPathPoint = GetNextPathPoint();	
+		NextPathPoint = GetNextPathPoint();
 
 		DrawDebugString(GetWorld(), GetActorLocation(), "Target Reached!");
 	}
@@ -128,4 +142,23 @@ void ASTrackerBot::Tick(float DeltaTime)
 	}
 
 	DrawDebugSphere(GetWorld(), NextPathPoint, 20, 12, FColor::Yellow, false, 0.0f, 1.0f);
+}
+
+void ASTrackerBot::NotifyActorBeginOverlap(AActor * OtherActor)
+{
+	if (!bStartedSelfDestruction)
+	{
+		ASCharacter* PlayerPawn = Cast<ASCharacter>(OtherActor);
+
+		if (PlayerPawn)
+		{
+			// We overlapped with a player!
+
+			// Start self destruction sequence
+			GetWorldTimerManager().SetTimer(TimerHandle_SelfDamage, this, &ASTrackerBot::DamageSelf, 0.5f, true, 0.0f);
+
+			bStartedSelfDestruction = true;
+		}
+	}
+
 }

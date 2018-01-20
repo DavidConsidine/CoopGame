@@ -99,3 +99,5 @@ Udemy UE4 mastery course by Tom Looman.
 ## CG:45 Pulse Material on TakeDamage ##
 
 ## CG:46 Add Self-Destruct ##
+
+## CG:47 Explode When Near Player ##
