@@ -103,3 +103,5 @@ Udemy UE4 mastery course by Tom Looman.
 ## CG:47 Explode When Near Player ##
 
 ## CG:48 Setup Sound Effects Part 1 ##
+
+## CG:48 Setup Sound Effects Part 2 ##
