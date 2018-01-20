@@ -107,3 +107,5 @@ Udemy UE4 mastery course by Tom Looman.
 ## CG:48 Setup Sound Effects Part 2 ##
 
 ## CG:49 Setup Network Replication Part 1 ##
+
+## CG:50 Setup Network Replication Part 2 ##
