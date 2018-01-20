@@ -87,3 +87,5 @@ Udemy UE4 mastery course by Tom Looman.
 ## CG:39 Replicate Health and Death ##
 
 ## CG:40 Challenge: Replicate the Explosive Barrel ##
+
+## CG:41 Setup AI Pawn and Navigation Mesh ##
