@@ -2,7 +2,9 @@
 Udemy UE4 mastery course by Tom Looman.
 
 
-## CG:55 Finish the "SuperSpeed" Power-up ##
+## CG:56 Finish the "SuperSpeed" Power-up ##
+
+## CG:55 Add Power-ups to PickupActor ##
 
 ## CG:54 Create Power-up "SuperSpeed" ##
 
