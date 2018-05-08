@@ -2,6 +2,8 @@
 Udemy UE4 mastery course by Tom Looman.
 
 
+## CG:55 Finish the "SuperSpeed" Power-up ##
+
 ## CG:54 Create Power-up "SuperSpeed" ##
 
 ## CG:53 Create the Power-up Class ##
