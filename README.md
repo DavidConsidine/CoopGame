@@ -2,6 +2,8 @@
 Udemy UE4 mastery course by Tom Looman.
 
 
+## CG:54 Create Power-up "SuperSpeed" ##
+
 ## CG:53 Create the Power-up Class ##
 
 ## CG:52 Create the Pickup Class ##
