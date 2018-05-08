@@ -111,3 +111,5 @@ Udemy UE4 mastery course by Tom Looman.
 ## CG:50 Setup Network Replication Part 2 ##
 
 ## CG:51 Challenge: Increase AI Damage when near other bots ##
+
+## CG:52 Create the Pickup Class ##
