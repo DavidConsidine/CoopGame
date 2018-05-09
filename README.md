@@ -1,6 +1,7 @@
 # CoopGame
 Udemy UE4 mastery course by Tom Looman.
 
+## CG:57 Create "Health Regeneration" Power-up ##
 
 ## CG:56 Finish the "SuperSpeed" Power-up ##
 
