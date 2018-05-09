@@ -1,6 +1,8 @@
 # CoopGame
 Udemy UE4 mastery course by Tom Looman.
 
+## CG:60 Update Power-ups with base class ##
+
 ## CG:59 Replicate Power-ups for Multiplayer Part 1 ##
 
 ## CG:58 Polish the Power-ups ##
