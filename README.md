@@ -1,6 +1,8 @@
 # CoopGame
 Udemy UE4 mastery course by Tom Looman.
 
+## CG:70 Add Score for Kills ##
+
 ## CG:69 Replicate WaveState to all players ##
 
 ## CG:68 Add WaveStates ##
