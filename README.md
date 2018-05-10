@@ -1,6 +1,8 @@
 # CoopGame
 Udemy UE4 mastery course by Tom Looman.
 
+## CG:66 Complete the Wave Logic ##
+
 ## CG:65 Add Wave Based Spawning ##
 
 ## CG:64 Spawn AI using EQS ##
