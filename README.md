@@ -1,6 +1,8 @@
 # CoopGame
 Udemy UE4 mastery course by Tom Looman.
 
+## CG:67 Create Game Over state ##
+
 ## CG:66 Complete the Wave Logic ##
 
 ## CG:65 Add Wave Based Spawning ##
