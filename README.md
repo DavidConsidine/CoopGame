@@ -1,6 +1,10 @@
 # CoopGame
 Udemy UE4 mastery course by Tom Looman.
 
+## CG:72 Respawn Dead Players ##
+
+## CG:71 Setup Level For Gameplay ##
+
 ## CG:70 Add Score for Kills ##
 
 ## CG:69 Replicate WaveState to all players ##
