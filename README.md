@@ -1,6 +1,8 @@
 # CoopGame
 Udemy UE4 mastery course by Tom Looman.
 
+## CG:78 Move To Nearest Player Using EQS ##
+
 ## CG:77 Add Sight Perception ##
 
 ## CG:76 Finish the AI Movement ##
