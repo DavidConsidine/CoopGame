@@ -1,6 +1,8 @@
 # CoopGame
 Udemy UE4 mastery course by Tom Looman.
 
+## CG:73 Setup AI Class and Behaviour Tree ##
+
 ## CG:72 Respawn Dead Players ##
 
 ## CG:71 Setup Level For Gameplay ##
