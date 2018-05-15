@@ -1,6 +1,8 @@
 # CoopGame
 Udemy UE4 mastery course by Tom Looman.
 
+## CG:83 Improve Target Selection ##
+
 ## CG:82 Setup Teams and Friendly Fire ##
 
 ## CG:81 Add Advanced AI to Wave Spawns ##
