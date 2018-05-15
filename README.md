@@ -1,6 +1,8 @@
 # CoopGame
 Udemy UE4 mastery course by Tom Looman.
 
+## CG:80 Add Bullet Spread to Weapon ##
+
 ## CG:79 Setup AI Weapon Fire ##
 
 ## CG:78 Move To Nearest Player Using EQS ##
