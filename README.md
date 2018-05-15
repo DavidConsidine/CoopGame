@@ -1,6 +1,8 @@
 # CoopGame
 Udemy UE4 mastery course by Tom Looman.
 
+## CG:85 Challenge: Make AI Flee to Cover When Low Health ##
+
 ## CG:84 Bonus: Polish the Tracker Bot ##
 
 ## CG:83 Improve Target Selection ##
