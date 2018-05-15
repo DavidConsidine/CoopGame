@@ -1,6 +1,8 @@
 # CoopGame
 Udemy UE4 mastery course by Tom Looman.
 
+## CG:79 Setup AI Weapon Fire ##
+
 ## CG:78 Move To Nearest Player Using EQS ##
 
 ## CG:77 Add Sight Perception ##
